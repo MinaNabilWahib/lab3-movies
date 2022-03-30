@@ -36,6 +36,7 @@ export default function Movies() {
     );
 }
 
+
 // 1- Create Movies list component
 // 2- Define Route
 // 3- Define Axios Request -> define path -> accept / reject
