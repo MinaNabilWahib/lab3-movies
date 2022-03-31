@@ -12,7 +12,7 @@ export default function Movies() {
                 // console.log(res.data.results);
             })
             .catch((err) => console.log(err));
-    });
+    }, [pageNum]);
     return (
         <>
             <h2>Movies</h2>

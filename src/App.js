@@ -6,6 +6,7 @@ import MovieDetails from "./pages/MovieDetails";
 import NotFound from "./pages/NotFound";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+import Favorite from "./pages/Favorite";
 
 function App() {
   return (
@@ -15,12 +16,13 @@ function App() {
         <Routes>
           <Route path="/" element={<Movies />} />
           <Route path="/topRated" element={<TopRated />} />
+          <Route path="/favorite" element={<Favorite />} />
           <Route path="/movies/:id" element={<MovieDetails />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
-
     </Router>
+
   );
 }
 

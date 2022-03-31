@@ -31,6 +31,11 @@ export default function Navbar() {
                                 Top Rated
                             </Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/favorite">
+                                Favorite
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </div>
